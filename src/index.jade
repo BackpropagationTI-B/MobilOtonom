@@ -5,22 +5,35 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Tugas
 
-    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(rel="stylesheet" type="text/css" href="build/build.css")
 
   body
 
     article
 
       section
-        h1 Tugas
+        h1 Mobil Otonom
+        h2 BackpropagationTI-B 
 
       section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
+        h2 Apa itu Mobil Otonom
+        h3 Mobil yang bisa melaju tanpa bantuan pengemudi dengan menggunakan serangkaian sensor seperti:
+        ul
+        li Kamera Digital 
+        li Gps 
+        li Radar 
+        li Electronic Control Unit 
 
       section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
+        h2 Level Mobil Otonom ada 5 seperti:
+        ul
+        li Level 0 : tidak ada fungsi otomatis
+        li level 1 : Fungsi yang membantu pengemudi misal nya ACC atau Adaptive Cruise Control
+        li level 2 : Sistem bantuan untuk Pengemudi misalnya, mengontrol kecepatan, pengereman, dan kontrol kemudi
+        li level 3 : Mobil otonom dalam beberapa situasi, namun dengan ada nya intervensi pengemudi
+        li level 4 : Mobil otonom bisa dalam beberapa situasi tanpa kontrol pengemudi 
+        li level 5 : Mobil otonom sepenuh nya
+
 
       section
         h2 Responsive Slides
@@ -67,5 +80,11 @@ html
           li
             strong Enjoy! :)
             a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+          p
+          span(class="colon")
+          span(id="theme")
+          
+        div id="up-arrow" class="up arrow"
+        div id="down-arrow" class="down arrow"
 
-    script(src='build/build.js')
+script(src='build/build.js')
